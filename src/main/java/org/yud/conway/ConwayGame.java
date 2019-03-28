@@ -43,7 +43,7 @@ public class ConwayGame {
 	 * @param j
 	 * @return
 	 */
-	public int getLiveNeighboursCount(int i,int j) {
+	private int getLiveNeighboursCount(int i,int j) {
 				int count =0;
 				int row = conwayBoard.length;
 				int col = conwayBoard[0].length;

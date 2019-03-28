@@ -57,11 +57,4 @@ public class AppTest
     	
     	assertFalse(game.checkForDeathOrAliveConditionOfCell(1, 1));
     }
-    
-    public void testForCorrectGetLiveNeighboursCount() {
-    	assertEquals(2, game.getLiveNeighboursCount(0, 0));
-    }
-    public void testForIncorrectGetLiveNeighboursCount() {
-    	assertEquals(2, game.getLiveNeighboursCount(0, 0));
-    }
 }
